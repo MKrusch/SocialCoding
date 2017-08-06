@@ -1,19 +1,35 @@
-1. Care about your craft.
+Die folgenden 10 Tipps stammen aus dem Buch 'Pragmatic Programer'.
 
-14 There are no final decisions.
+## 1. Care about your craft.
+Ich finde es wichtig Programmierer aus Leidenschaft zu sein. Viele Aspekte am Programmmieralltag an der Hochschule finde
+ich nicht sehr gut, aber ich werde dafür entschädigt, wenn ich an einem Problem sitze und all meine Erfahrung einbinden kann.
 
-21 Use the Power of the Command Shells.
+## 14 There are no final decisions.
+Einer der vielen Tipps, die sich auf dieser Liste befinden, weil er zu meinen gemachten Erfahrungen in den letzten Projekten passt.
 
-25. Dont't panic.
+## 21 Use the Power of the Command Shells.
+Wie ich durch die ganzen Fachsimpeleien von Fabian und Dirk mitbekommen habe, sind Command Shells und Linux eine vielseitige, 
+spannende Welt und ich nehme mir fest vor meinen nächsten Laptop mit Linux zu nutzen.
 
-33. If it can't happen, use Assertions to ensure that it won't. 
+## 25. Dont't panic.
+Nach diversen Nervenzusammenbrüchen zur EIS-Abgabe selbsterklärend.
 
-50. Don't use Wizard Code you don't understand.
+## 33. If it can't happen, use Assertions to ensure that it won't.
+Eine Gute Regel um besseren Code zu schreiben und mich somit zu verbessern.
 
-52. Work with a Use to think like a User.
+## 50. Don't use Wizard Code you don't understand.
+Was ich auch bei der TDD Aufgabe gemerkt habe ist, dass man Sachen nur versteht, wenn man sie auch verstehen will.
+Gleiche Lektion sollte man Studienanfängern geben, die ihren AP1 Code abschreiben.
 
-54. Use a Project Glossary.
+## 52. Work with a Use to think like a User.
+Ich finde MCI einfach super, denn ich schreibe im besten Fall Code, um Menschen zu helfen.
 
-62. Test early. Test often. Test automatically.
+## 54. Use a Project Glossary.
+Ein Tipp der meine Projecterfahrungen aus EIS widerspiegelt.
 
-68. Built Documentation in, don't bolt it on.
+## 62. Test early. Test often. Test automatically.
+TDD funktioniert wirklich!
+
+## 68. Built Documentation in, don't bolt it on.
+Wenn ich für jede Zeile Code, die ich später nicht mehr richtig erklären konnte, einen Creditpoint kriegen würde, 
+hätte ich schön meinen Master of Science.
