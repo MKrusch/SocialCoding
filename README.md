@@ -183,7 +183,7 @@ Generell lässt sich sagen, dass es eine gute Erfahrung war, Test Driven zu entw
 
 ### Pragmatic Programer
 Zum Schluss kriegten wir die Aufgabe uns 10 Tipps aus dem Buch "The Pragmatic Programer" rauszusuchen. Meine sind hier zu finden:
-[I bims 1 link, so vong Hypertext her.](@PragmaticProgramer)
+[I bims 1 link, so vong Hypertext her.](https://github.com/MKrusch/SocialCoding/blob/master/PragmaticProgramer)
 
 <a name="Fazit"></a>
 ## Fazit zum WPF
