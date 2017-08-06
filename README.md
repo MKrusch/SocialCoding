@@ -4,6 +4,18 @@ This Repository contains impressions and advices from the course Social Coding a
 Das Repository enthält meine Eindrücke aus dem WPF Social Coding SS17 an der TH Köln.
 Im folgenden werden die einzelnen Termine chronologisch abgehandelt.
 
+## Inhalt
+[Kickoff](#Kickoff)  
+[Github](#Github)  
+[Contributing](#Contributing)  
+[Deployment](#Deployment)  
+[Vorträge 1](#Vortrag1)  
+[Vorträge 2](#Vortrag2)  
+[Beruf, Patches und TDD](#Mix)  
+[Fazit](#Fazit)  
+
+
+<a name="Kickoff"></a>
 ## 0 Kickoff
 Vorneweg ist zu sagen, dass ieser Termin, wie einige der folgenden auch, unvollständig ist. Das liegt daran, dass zu exakt dieser Zeit,
 wichtige Feedback-Termine vom Modul EIS, welches als Pflichtmodul mit 10 Credit Points natürlich Vorrang hatte, abgehalten wurden.
@@ -26,6 +38,7 @@ Plan B diente, sollte ich den anderen WPFs keinen Platz kriegen. Aber das für D
 Die Themen waren dem WPF-Namen entsprechend. Github, Usergroups, TDD. Generell vieles, was man als Entwickler im Beruf gehört haben sollte
 und am besten regelmäßig verwendet. Generell ahnt man das Motto des WPFs: über den Tellerrand schauen.
 
+<a name="Github"></a>
 ## 1 Github
 Wie bereits erwähnt, kam ich auch hier zu spät wegen EIS.
 
@@ -51,6 +64,7 @@ Markdown ist eine Auszeichnungssprache, die im Gegensatz zu HTML die Lesbarkeit 
 Interpreter einen formatierten Text anzeigen lassen, jedoch ist der Text auch ohne Interpreter, zum Beispiel in Wordpad, noch sehr
 gut lesbar. Da Markdown auf komplizierte Auszeichnungen verzichtet, ist es auch ein Stück weit eingeschränkter als HTML.
 
+<a name="Contributing"></a>
 ## 2 Contributing
 Leider konnte ich diesen Termin durch EIS garnicht erst wahrnehmen. Dadurch habe ich nur bedingt mitbekommen was gesagt wurde, aber
 ich weiß was die Aufgabe war.
@@ -69,6 +83,7 @@ War ich damit zufrieden? - Nein.
 War die Aufgabe damit erfüllt? - Nicht wirklich.
 
 Doch ich konnte ruhigen Gewissens weiter machen, in der Gewissheit, schon einmal Jemadem 3 Zeilen Wiki verfasst zu haben.
+Zu finden iste die Seite hier: [Wikiseite](https://github.com/vurtun/nuklear/wiki/Radio)
 
 ### Fazit
 Das Contributing ist garnicht so einfach. Es erfordert meist viel Arbeit und Hingabe, sich in fremde Projekte einzuarbeiten, zumal es
@@ -78,6 +93,7 @@ nicht in den Code.
 Ich kann auch zunehmend verstehen, wieso potentielle Arbeitgeber auch auf den Github Account schauen. Denn neben den Arebitsproben
 wirkt das Contributen für mich fast wie das Ehrenamtliche Arbeiten in Sozialen Studienfächern.
 
+<a name="Deployment"></a>
 ## 3 Deployment
 Beim insgesamt vierten Termin sollten wir einen nginx Server aufsetzen. Dafür hatte Dirk schon passende Server bei Digital Ocean aufgesetzt, auf denen wir noch nginx zum laufen kriegen sollten. Das Lernziel war dabei nicht in erster Linie, wie man einen nginx Server aufsetzt, sondern wie man sich in neue Themen einarbeitet und, dass man die jeweiligen Dokumentationen und Resourcen lesen, verstehen und anwenden kann.
 
@@ -97,6 +113,7 @@ Nachdem wir uns einen Server ausgesucht haben, haben wir uns via ssh mit dem Ser
 Sobald der Server eingerichtet war, ging es darum, den nginx Server aufzusetzen, Ports einzustellen und Serverblocks aufzusetzen.
 Ich selber habe nur strikt nach Dokumentation gearbeitet und bin aus dem Kopf auch nicht mehr in der Lage, die einzelnen Schritte auszuführen. Das zeigt jedoch auch, dass das Lernziel erfüllt worden ist.
 
+<a name="Usergroup"></a>
 ## 4 Usergroup
 Im Sinne des Social Codings wollte uns Dirk eine wichtige Komponente im Austausch mit Kollegen zeigen. Usergroups.
 Dafür sind sollten wir an einem Freitag an einem solchen Treffen des [DevHouse Friday Meetup](https://www.meetup.com/DevHouseFriday-Chillout/events/238182514/) im Kölner Mediapark teilnehmen. Wer genau mitkommen würde, war noch unklar, deshalb sprach ich mit [@Fabian](https://github.com/fafuuu), schnappte mir noch einen anderen Kommilitonen und letzten Endes waren auch nur wir drei da. An dem Abend sollte es drei Vorträge geben:
@@ -115,6 +132,7 @@ Im zweiten Vortrag ging es um ein zum Amigacontroller umfunktioniertes Motorrad.
 ### Probleme von CAs
 Als Letztes zeigte Phillip, was er herausgefunden hatte als er sich mit TLS und CAs beschäftigt hatte. Nämlich, dass Zertifikate bei weitem nicht so sicher sind wie viele denken. Das Liegt damit zusammen, dass viele CAs zu lasch Zertifikate rausgeben. Als Beispiel nannte er [Let's encypt](https://letsencrypt.org/). Generell hatte dieser Vortrag eher einen Diskussionscharakter. Kollegen aus dem Publikum merkten zum Beispiel an, dass [Let's encypt](https://letsencrypt.org/) gar nicht zur Authentifizierung offizieller Websites gedacht ist, sondern einzig dazu, allen Websites Zertifikate zu ermöglichen, da diese für HTTPS gebraucht werden. Phillip stimmte dem zu, hob aber auch hervor, dass dadurch das grüne Schloss vor der URL kein Zeichen für unbedingte Sicherheit ist, wie viele Programmierer etwas lapidar ihren Domänenfremden Bekannten raten. Dabei schwang auch etwas Selbstkritik mit. Der Vortrag war zwar nicht spannendste, aber der aufschlussreichste.
 
+<a name="Vortrag1"></a>
 ## 5 Vorträge 1
 Ganz egal ob im Studium, Job oder bei der Usergroup, Vorträge begegnen einem Entwickler immer wieder. Glücklich ist der, der sie beherrscht. Und da man glücklicherweise das Erarbeiten von Vorträgen und das Vortragen selber üben kann, tun wir das auch bei jeder Gelegenheit. Termin 6 galt als Vorbereitung und bei Termin 7 wurden die Präsentationen dann abgehalten.
 Wir durften uns ein Thema aussuchen und hatten generell nur wenig einschränkungen
@@ -125,8 +143,9 @@ Meinem Anspruch das Ganze nicht als Rekrutierungsvortrag zu vermüllen oder zu e
 
 Im Gespräch nach Köln konnte ich dann nochmal mit den anderen das Fazit des Vortrags konkretisieren:
 
-** Man geht nicht als Informatiker zur Bundeswehr, weil man das Gehalt gut findet, oder gerne Krieg spielt. Sondern weil man sich mit der Bundeswehr und wofür sie zu stehen versucht identifiziert. **
+**Man geht nicht als Informatiker zur Bundeswehr, weil man das Gehalt gut findet, oder gerne Krieg spielt. Sondern weil man sich mit der Bundeswehr und wofür sie zu stehen versucht identifiziert.**
 
+<a name="Vortrag2"></a>
 ## 6 Vorträge 2
 An diesem Termin wurden alle Vorträge gehalten.
 
@@ -145,6 +164,7 @@ Der letzte Vortrag ging über den Texteditor Vim. Obwohl jeder Informatiker ihn 
 ### Bundeswehr
 Über meinen eigenen Vortrag habe ich schon im vorigen Kapitel geschrieben. an dieser Stelle möchte ich nur nochmal die PDF verlinken.
 
+<a name="Mix"></a>
 ## 7 Beruf, Patches und TDD
 Der letzte Termin stand im zeichen von "zu wenig Zeit für alles". Wir hörten zwei Vorträge von Dirk und hatten Zeit auch alle anderen Fragen zu klären. Viele fragen kamen aber garnicht zusammen, da Fabian und ich wegen der bevorstehenden Klausuren die einzigen Anwesenden waren. 
 
@@ -158,5 +178,13 @@ Danach erzählte Dirk von Testing. Damit hatten wir im Studium nur wenig Berühr
 
 Ich entschied mich dazu mit Java und JUnit zu programmieren, was mich jedoch auch vor etliche Probleme stellen sollte. So gibt es in Java keine nested Strings wodurch eine Aufgabe so garnicht zu lösen war. 
 
+Generell lässt sich sagen, dass es eine gute Erfahrung war, Test Driven zu entwickeln. Ich merkte, wie ich nach einiger Zeit schon beim entwickeln an weiter Tests gedacht habe. Prinzipiell lässt sich das aber noch weiter ausbauen. bis ich wirklich gut in Test Driven Developement bin, dürften noch so einige Projekte geschehen.
+
+
 ### Pragmatic Programer
 Zum Schluss kriegten wir die Aufgabe uns 10 Tipps aus dem Buch "The Pragmatic Programer" rauszusuchen. Meine sind hier zu finden:
+[I bims 1 link, so vong Hypertext her.](@PragmaticProgramer)
+
+<a name="Fazit"></a>
+## Fazit zum WPF
+Das WPF stellte sich von der ersten Stunde an als Glücksgriff heraus. Ich bin der Meinung, dass ich durch die vielen Eindrücke und Tipps ein besser Programmierer (im Sinne eines Pragmatic Programers) geworden bin, als ich durch einen reinen Programmierkurs wie AP2 hätte werden können. Es ist schwer, herauszusuchen was mir am besten gefallen hat. Die einzige Kritik die ich äußern möchte ist, dass sich Dirk noch etwas mehr um klare Regeln und Termine bemühen sollte, da die Arbeitsmoral im Kurs niedriger war, als er es verdient hat.
